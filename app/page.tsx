@@ -17,6 +17,10 @@ export default async function HomePage() {
     <>
       <ThreeItemGrid />
       <Suspense>
+        <div className="container mx-auto">
+          <h1>Sample Commerce</h1>
+        </div>
+
         <Carousel />
         <Suspense>
           <Footer />
